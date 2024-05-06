@@ -10,7 +10,7 @@ const router = createBrowserRouter([
         errorElement: <div>404 Not Found</div>
     },
     {
-        path: '/service/:serviceId',
+        path: 'service/:serviceId',
         element: <Services />
     }
 ])
