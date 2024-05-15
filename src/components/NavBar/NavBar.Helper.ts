@@ -1,0 +1,26 @@
+import { FaFacebookF } from "react-icons/fa";
+
+export const MenuItems = [
+  { id: "MenuItem-1", name: "Acceuil", href: "/" },
+  { id: "MenuItem-2", name: "Service", href: "/" },
+  { id: "MenuItem-3", name: "Client", href: "/" },
+  { id: "MenuItem-4", name: "Contact", href: "/" },
+];
+
+export const SocialMedia = [
+  {
+    id: "Icon-1",
+    icon: FaFacebookF,
+    href: "https://www.facebook.com/",
+  },
+  {
+    id: "Icon-1",
+    icon: FaFacebookF,
+    href: "https://www.facebook.com/",
+  },
+  {
+    id: "Icon-1",
+    icon: FaFacebookF,
+    href: "https://www.facebook.com/",
+  },
+];

@@ -1,8 +1,13 @@
-
+import { Box } from "@chakra-ui/react"
+import Hero from "../../sections/Hero"
+import Services from "../../sections/Services"
 
 const Home = (): JSX.Element => {
   return (
-    <div>Home</div>
+    <Box>
+      <Hero />
+      <Services />
+    </Box>
   )
 }
 
