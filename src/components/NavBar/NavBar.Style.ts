@@ -25,5 +25,8 @@ export const Style: StyleKey = {
         mt: 10,
         display: 'flex',
         flexDirection: 'column',
+    },
+    Logo: {
+        height: '60px'
     }
 }

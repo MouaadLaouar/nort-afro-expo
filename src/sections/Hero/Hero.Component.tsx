@@ -3,7 +3,7 @@ import { Style } from "./Hero.Style";
 
 const Hero = (): JSX.Element => {
   return (
-    <Box sx={Style.Hero}>
+    <Box id="hero" sx={Style.Hero}>
       <Text sx={Style.Text}>Leader de l’export en Algérie</Text>
     </Box>
   );

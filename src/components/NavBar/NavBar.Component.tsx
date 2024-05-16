@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { Style } from "./NavBar.Style";
-import logo from "../../assets/react.svg";
+import logo from "../../assets/logo.png";
 import { MenuItems, SocialMedia } from "./NavBar.Helper";
 import { useState } from "react";
 
@@ -20,7 +20,7 @@ const NavBar = (): JSX.Element => {
   return (
     <Box sx={Style.NavBar}>
       <Box>
-        <Image src={logo} alt="logo" />
+        <Image sx={Style.Logo} src={logo} alt="logo" />
       </Box>
       <Box sx={Style.MenuDesktop}>
         {MenuItems.map((item) => (
