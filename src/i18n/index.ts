@@ -3,7 +3,12 @@ import { initReactI18next } from 'react-i18next'
 
 
 const resources = {
+  EN: {
 
+  },
+  FR: {
+    
+  }
 }
 
 i18n
