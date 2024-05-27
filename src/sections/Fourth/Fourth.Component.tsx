@@ -1,15 +1,29 @@
-import { Box, Text } from "@chakra-ui/react"
-import { Style } from "./Fourth.Style"
+import { Box, Text } from "@chakra-ui/react";
+import { Style } from "./Fourth.Style";
 
-const Fourth = (): JSX.Element => {
-  return (
-    <Box sx={ Style.Fourth}>
-        <Text sx={Style.Title}>Pourquoi nous choisir ?</Text>
-        <Text>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quas impedit ullam veritatis nisi est beatae alias at veniam quibusdam, voluptatibus neque eos, consequuntur incidunt doloribus id a eaque nesciunt non odio quisquam harum? Distinctio, delectus! Enim ea totam consectetur blanditiis sapiente accusantium assumenda vero a dolorem possimus modi, sed vitae quibusdam cupiditate omnis dignissimos saepe labore voluptatum magnam perspiciatis accusamus exercitationem! Laboriosam veniam quasi dolores animi libero numquam deleniti, inventore ipsam similique quaerat consequatur ad illo error laborum recusandae omnis vero doloribus! Eaque blanditiis, ullam asperiores ea velit vero placeat harum corporis aut molestias nemo est saepe enim repudiandae!
-        </Text>
-    </Box>
-  )
-}
+const About = (): JSX.Element => {
+    return (
+        <Box sx={Style.Fourth} id="about" >
+            <Text sx={Style.Title}>Pourquoi nous choisir ?</Text>
+            <Text>
+                Notre entreprise d'exportation se distingue par la qualité et la
+                fiabilité de ses produits : bois, ciment, clinker
+                électroménagers. Et d’autre produit de construction Nous
+                garantissons des produits de première qualité, respectant les
+                normes internationales les plus strictes, pour assurer la
+                satisfaction totale de nos clients. Nos processus logistiques
+                optimisés garantissent des livraisons ponctuelles et fiables à
+                travers le monde. Avec plusieurs années d'expérience dans le
+                secteur, notre équipe d'experts s'engage à fournir un service
+                client exceptionnel et à répondre efficacement à tous vos
+                besoins. Grâce à des relations de confiance avec des partenaires
+                de premier plan, nous offrons des produits compétitifs et des
+                solutions logistiques efficaces. Conscients de notre
+                responsabilité environnementale, nous adoptons des pratiques
+                durables dans tous nos processus d'exportation.
+            </Text>
+        </Box>
+    );
+};
 
-export default Fourth
+export default About;

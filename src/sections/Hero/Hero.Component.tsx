@@ -1,20 +1,20 @@
-import { Grid, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { Style } from "./Hero.Style";
+import heroImage from "../../assets/hero.png";
 
 const Hero = (): JSX.Element => {
     return (
-        <Grid
+        <Box
             id="hero"
-            display="grid"
-            gridGap={2}
             sx={Style.Hero}
-            className=" grid grid-cols-12"
+            backgroundImage={`url(${heroImage})`}
+            backgroundSize="cover"
+            backgroundPosition="center"
         >
-            <div className="col-span-4">
-                {" "}
+            <div className=" w-full  sm:w-1/5">
                 <Text sx={Style.Text}>Leader de l’export en Algérie</Text>
             </div>
-        </Grid>
+        </Box>
     );
 };
 

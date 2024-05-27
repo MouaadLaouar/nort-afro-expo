@@ -1,10 +1,35 @@
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
+import Ciment from "../../components/Ciment";
+import Bois from "../../components/Bois";
+import Electroménagers from "../../components/Electroménagers";
 
 const Services = (): JSX.Element => {
-  const params = useParams()
-  return (
-    <div>Services { params.serviceId }</div>
-  )
-}
+    const params = useParams();
 
-export default Services
+    if (params.serviceId == "ciment") {
+        return (
+            <div>
+                <Ciment />
+            </div>
+        );
+    } else if (params.serviceId == "bois") {
+        return (
+            <div>
+                <Bois />
+            </div>
+        );
+    } else if (params.serviceId == "electroménagers") {
+        return (
+            <div>
+                <Electroménagers />
+            </div>
+        );
+    }
+    return (
+        <div>
+            <h1>404 Not Found</h1>
+        </div>
+    );
+};
+
+export default Services;

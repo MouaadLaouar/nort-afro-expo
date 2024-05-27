@@ -12,7 +12,7 @@ export const Cards = [
         href: "ciment",
     },
     {
-        id: "-2",
+        id: "2",
         title: "Bois",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
@@ -21,11 +21,11 @@ export const Cards = [
     },
     {
         id: "3",
-        title: "Electronique",
+        title: "Electroménagers",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
         picture: electronicCard,
-        href: "electronique",
+        href: "electroménagers",
     },
     // {
     //     id: "Card-4",

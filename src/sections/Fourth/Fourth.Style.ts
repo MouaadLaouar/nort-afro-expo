@@ -3,7 +3,8 @@ import { StyleKey } from "../../types";
 export const Style: StyleKey = {
     Fourth: {
         px: '10%',
-        py: 5
+        py: 8
+        
     },
     Title: {
         fontSize: {
