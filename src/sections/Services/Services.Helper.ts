@@ -1,32 +1,37 @@
-import ciment from '../../assets/ciment.jpg'
+import ciment from "../../assets/ciment.jpg";
+import boisCard from "../../assets/boisCard.jpg";
+import electronicCard from "../../assets/electronicCard.jpg";
 
 export const Cards = [
     {
-        id: "Card-1",
-        title: "Service 1",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi reprehenderit dolores, tempora quaerat nisi voluptas qui corporis! Exercitationem, consequuntur?",
+        id: "1",
+        title: "Ciment",
+        description:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
         picture: ciment,
-        href: 'Card-1'
+        href: "ciment",
     },
     {
-        id: "Card-2",
-        title: "Service 2",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi reprehenderit dolores, tempora quaerat nisi voluptas qui corporis! Exercitationem, consequuntur?",
-        picture: ciment,
-        href: 'Card-2'
+        id: "-2",
+        title: "Bois",
+        description:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+        picture: boisCard,
+        href: "bois",
     },
     {
-        id: "Card-3",
-        title: "Service 3",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi reprehenderit dolores, tempora quaerat nisi voluptas qui corporis! Exercitationem, consequuntur?",
-        picture: ciment,
-        href: 'Card-3'
+        id: "3",
+        title: "Electronique",
+        description:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+        picture: electronicCard,
+        href: "electronique",
     },
-    {
-        id: "Card-4",
-        title: "Service 4",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi reprehenderit dolores, tempora quaerat nisi voluptas qui corporis! Exercitationem, consequuntur?",
-        picture: ciment,
-        href: 'Card-4'
-    }
-]
+    // {
+    //     id: "Card-4",
+    //     title: "Service 4",
+    //     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    //     picture: ciment,
+    //     href: 'Card-4'
+    // }
+];

@@ -1,36 +1,47 @@
 import { StyleKey } from "../../types";
 
+ 
+
 export const Style: StyleKey = {
     Services: {
-        backgroundColor: '#083857',
-        display: 'flex',
-        alignItems: 'center',
-        flexDirection: 'column',
+        backgroundColor: "#083756",
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+   
+
+       
     },
     Text: {
         marginTop: "40px",
         marginBottom: "20px",
-        fontSize: "90px",
-        color: "white"
+        fontSize: {
+            md: "70px",
+            base: "40px",
+        },
+        color: "#01b5ec",
     },
     Cards: {
-        margin: 3,
+        marginBottom: "40px",
     },
     Pic: {
-        borderRadius: '3px 3px 0px 0px',
-        width: '100%'
+     
+        width: "100%",
     },
+
     Title: {
         my: 4,
-        color: 'white',
+        color: "#01b5ec",
     },
     Desc: {
-        color: 'white',
+        color: "white",
     },
     Card: {
         width: {
-            lg: '250px',
-            base: '150px'
-        }
-    }
-}
+            lg: "250px",
+            base: "250px",
+        },
+        
+
+    },
+};
