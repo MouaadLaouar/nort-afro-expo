@@ -6,8 +6,8 @@ import "animate.css";
 
 const Partners = (): JSX.Element => {
     return (
-        <Box id="services" sx={Style.Services}>
-            <Text sx={Style.Text}>Nos branches</Text>
+        <Box id="partners" sx={Style.Services}>
+            <Text sx={Style.Text}>Nos Branches</Text>
             <SimpleGrid
                 columns={{ base: 1, sm: 2 }}
                 sx={Style.Cards}
@@ -15,7 +15,7 @@ const Partners = (): JSX.Element => {
                 gap={12}
             >
                 {Cards.map((card) => (
-                    <Link key={card.id} to={`service/${card.href}`}>
+                    <Link key={card.id} to={`${card.href}`}>
                         <Box sx={Style.Card} w="250px">
                             <Image
                                 sx={Style.Pic}

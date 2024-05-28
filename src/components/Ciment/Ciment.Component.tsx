@@ -43,7 +43,7 @@ const Ciment = (): JSX.Element => {
                         <div className="space-y-6 sm:space-y-8">
                             <div className="space-y-2 md:space-y-4">
                                 <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
-                                    Pour le ciment
+                                    Pour le Ciment
                                 </h2>
                                 <p className="text-gray-500 ">
                                     Nous proposons la plus large gamme de
@@ -57,26 +57,26 @@ const Ciment = (): JSX.Element => {
                 </div>
             </div>
 
-            <h1 className="text-center text-3xl font-bold text-gray-800 mt-10">
-                Les FICHE TECHNIQUE / FICHE DE QUALITE
+            <h1 className="text-center text-3xl font-bold text-gray-800 mt-10 ">
+                 FICHES TECHNIQUE / FICHES DE QUALITE
             </h1>
 
-            <div className=" py-12 px-8 grid grid-cols-12 ">
-                <div className="col-span-12 md:col-span-4">
+            <div className=" py-12 px-8 grid grid-cols-12 gap-4 ">
+                <div className="col-span-12 md:col-span-4 rounded-lg border-2">
                     <img
                         className="rounded-xl"
                         src={cementt4}
                         alt="Image Description"
                     />
                 </div>
-                <div className="col-span-12 md:col-span-4">
+                <div className="col-span-12 md:col-span-4 rounded-lg border-2">
                     <img
                         className="rounded-xl"
                         src={cementt5}
                         alt="Image Description"
                     />
                 </div>
-                <div className="col-span-12 md:col-span-4">
+                <div className="col-span-12 md:col-span-4 rounded-lg border-2">
                     <img
                         className="rounded-xl"
                         src={cementt6}

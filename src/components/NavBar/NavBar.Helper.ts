@@ -5,8 +5,8 @@ import { FaTwitter } from "react-icons/fa";
 export const MenuItems = [
     { id: "MenuItem-1", name: "Acceuil", href: "/#hero" },
     { id: "MenuItem-2", name: "Service", href: "/#services" },
-    // { id: "MenuItem-4", name: "About", href: "/#about" },
     { id: "MenuItem-4", name: "Contact", href: "/#footer" },
+    { id: "MenuItem-5", name: "Localisation", href: "/location" },
 ];
 
 export const SocialMedia = [

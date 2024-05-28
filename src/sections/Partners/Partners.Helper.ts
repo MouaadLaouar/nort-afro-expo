@@ -8,14 +8,14 @@ export const Cards = [
         description:
             " votre partenaire de confiance pour tous vos besoins en matériaux de construction.",
         picture: globalBuildLogo,
-        href: "global-build",
+        href: "globalBuild",
     },
     {
         id: "2",
-        title: "Global bag",
+        title: "Global bag",
         description:
             "votre partenaire de confiance pour l’achat de BigBags de haute qualité.",
         picture: globalBagLogo,
-        href: "global-bag",
+        href: "/globalBag",
     },
 ];

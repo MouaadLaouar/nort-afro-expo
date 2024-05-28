@@ -20,11 +20,18 @@ const NavBar = (): JSX.Element => {
     return (
         <Box sx={Style.NavBar}>
             <Box>
-                <Image sx={Style.Logo} src={logo} alt="logo" />
+                <Link href="/">
+                    <Image sx={Style.Logo} src={logo} alt="logo" />
+                </Link>
             </Box>
             <Box sx={Style.MenuDesktop}>
                 {MenuItems.map((item) => (
-                    <Link sx={Style.Link} key={item.id} href={item.href}   className="hover:text-blue-700">
+                    <Link
+                        sx={Style.Link}
+                        key={item.id}
+                        href={item.href}
+                        className="hover:text-blue-700"
+                    >
                         {item.name}
                     </Link>
                 ))}
@@ -79,7 +86,6 @@ const NavBar = (): JSX.Element => {
                                         aria-label={item.id}
                                         sx={Style.Link}
                                         icon={<item.icon />}
-                                      
                                     />
                                 </Link>
                             ))}
