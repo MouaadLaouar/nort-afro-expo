@@ -7,7 +7,7 @@ export const Cards = [
         id: "1",
         title: "Ciment",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            "Nous proposons la plus large gamme de ciments de haute qualité sur le marché. ",
         picture: ciment,
         href: "ciment",
     },
@@ -15,7 +15,7 @@ export const Cards = [
         id: "2",
         title: "Bois",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            "Pour le Bois Nous offrons la plus large gamme de bois de haute qualité sur le marché. ",
         picture: boisCard,
         href: "bois",
     },
@@ -23,7 +23,7 @@ export const Cards = [
         id: "3",
         title: "Electroménagers",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            "Pour les Électroménagers , Nous offrons la plus large gamme d'électroménagers de haute qualité sur le marché. ",
         picture: electronicCard,
         href: "electroménagers",
     },
