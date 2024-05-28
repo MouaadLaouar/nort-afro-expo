@@ -43,7 +43,7 @@ const Ciment = (): JSX.Element => {
                         <div className="space-y-6 sm:space-y-8">
                             <div className="space-y-2 md:space-y-4">
                                 <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
-                                    Pour le Ciment
+                                    Ciment
                                 </h2>
                                 <p className="text-gray-500 ">
                                     Nous proposons la plus large gamme de

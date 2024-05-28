@@ -26,10 +26,10 @@ const Elctro = (): JSX.Element => {
                     <div className="space-y-6 sm:space-y-8">
                         <div className="space-y-2 md:space-y-4">
                             <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
-                                Pour les Électroménagers,
+                               Électroménagers,
                             </h2>
                             <p className="text-gray-500 ">
-                                Pour les Électroménagers Nous offrons la plus
+                                Nous offrons la plus
                                 large gamme d'électroménagers de haute qualité
                                 sur le marché pour répondre aux besoins les plus
                                 exigeants, de la durabilité aux appareils

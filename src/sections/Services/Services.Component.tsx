@@ -21,7 +21,6 @@ const Services = (): JSX.Element => {
                                 src={card.picture}
                                 alt={card.title}
                                 rounded="lg"
-                                className="  hover:scale-110 transition duration-300 ease-in-out"
                             />
 
                             <Text sx={Style.Title}>{card.title}</Text>

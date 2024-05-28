@@ -15,7 +15,7 @@ export const Cards = [
         id: "2",
         title: "Bois",
         description:
-            "Pour le Bois Nous offrons la plus large gamme de bois de haute qualité sur le marché. ",
+            " Nous offrons la plus large gamme de bois de haute qualité sur le marché. ",
         picture: boisCard,
         href: "bois",
     },
@@ -23,7 +23,7 @@ export const Cards = [
         id: "3",
         title: "Electroménagers",
         description:
-            "Pour les Électroménagers , Nous offrons la plus large gamme d'électroménagers de haute qualité sur le marché. ",
+            "Nous offrons la plus large gamme d'électroménagers de haute qualité sur le marché. ",
         picture: electronicCard,
         href: "electroménagers",
     },
