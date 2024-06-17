@@ -1,6 +1,6 @@
 import ciment from "../../assets/ciment.jpg";
 import boisCard from "../../assets/boisCard.jpg";
-import electronicCard from "../../assets/electronicCard.jpg";
+import electronicCard from "../../assets/elctro/pic3.jpg";
 
 export const Cards = [
     {
