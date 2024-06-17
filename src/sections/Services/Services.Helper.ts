@@ -7,7 +7,7 @@ export const Cards = [
         id: "1",
         title: "Ciment",
         description:
-            "Nous proposons la plus large gamme de ciments de haute qualité sur le marché. ",
+            "Découvrez notre gamme complète de ciments de haute qualité, adaptés à tous vos projets de construction et de rénovation, offrant durabilité et performance pour des résultats exceptionnels. ",
         picture: ciment,
         href: "ciment",
     },
@@ -15,7 +15,7 @@ export const Cards = [
         id: "2",
         title: "Bois",
         description:
-            "Nous offrons la plus large gamme de bois de haute qualité sur le marché. ",
+            "Explorez notre sélection de bois premium, idéale pour tous vos projets de construction, d'aménagement intérieur et de menuiserie, garantissant robustesse et esthétique naturelle. ",
         picture: boisCard,
         href: "bois",
     },
@@ -23,7 +23,7 @@ export const Cards = [
         id: "3",
         title: "Clinker",
         description:
-            "Nous offrons la plus large gamme d'Clinker de haute qualité sur le marché. ",
+            "Optez pour notre clinker de première qualité, essentiel pour la production de ciments robustes et durables, assurant une solidité exceptionnelle à vos constructions. ",
         picture: electronicCard,
         href: "clinker",
     },

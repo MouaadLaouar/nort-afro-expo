@@ -48,11 +48,7 @@ const Bois = (): JSX.Element => {
                                     Bois
                                 </h2>
                                 <p className="text-gray-500 ">
-                                    Pour le Bois Nous offrons la plus large
-                                    gamme de bois de haute qualité sur le marché
-                                    pour répondre aux besoins les plus
-                                    exigeants, de la durabilité aux bois
-                                    spécialisés.
+                                Explorez notre collection de bois de qualité supérieure, idéale pour tous vos travaux de construction, rénovation et menuiserie, mariant beauté naturelle et robustesse. Parcourez notre gamme diversifiée d'essences bois haut de gamme, parfaitement adaptées aux besoins variés de vos projets, assurant à la fois esthétique et durabilité.
                                 </p>
                             </div>
                         </div>

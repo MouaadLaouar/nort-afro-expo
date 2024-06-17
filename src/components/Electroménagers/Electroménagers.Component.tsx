@@ -37,10 +37,14 @@ const Elctro = (): JSX.Element => {
                                 Clinker,
                             </h2>
                             <p className="text-gray-500">
-                                Nous offrons la plus large gamme de clinker de
-                                haute qualité sur le marché pour répondre aux
-                                besoins les plus exigeants, de la durabilité aux
-                                appareils spécialisés.
+                                Optez pour notre clinker de première qualité,
+                                essentiel pour la production de ciments robustes
+                                et durables, assurant une solidité
+                                exceptionnelle à vos constructions. Nous offrons
+                                la plus large gamme de clinker de haute qualité
+                                sur le marché pour répondre aux besoins les plus
+                                exigeants, de la durabilité aux
+                                applications spécialisées.
                             </p>
                         </div>
                     </div>

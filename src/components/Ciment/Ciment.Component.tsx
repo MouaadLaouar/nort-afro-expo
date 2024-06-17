@@ -45,22 +45,28 @@ const Ciment = (): JSX.Element => {
                         <div className="space-y-6 sm:space-y-8">
                             <div className="space-y-2 md:space-y-4">
                                 {/* <div className="flex gap-2 "> */}
-                                    <img
-                                        src={cementLogo}
-                                        alt="ciment"
-                                        className=" h-[120px]"
-                                    />
+                                <img
+                                    src={cementLogo}
+                                    alt="ciment"
+                                    className=" h-[120px]"
+                                />
 
-                                    <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
-                                        Ciment
-                                    </h2>
+                                <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
+                                    Ciment
+                                </h2>
                                 {/* </div> */}
 
                                 <p className="text-gray-500 ">
-                                    Nous proposons la plus large gamme de
-                                    ciments de haute qualité sur le marché pour
-                                    répondre aux besoins les plus exigeants,de
-                                    la durabilité aux ciments spéciaux
+                                    Découvrez notre large éventail de ciments
+                                    haute performance, conçus pour répondre aux
+                                    exigences de tous vos projets de
+                                    construction en assurant solidité et
+                                    durabilité. Choisissez parmi une variété de
+                                    produits adaptés, offrant une gamme complète
+                                    de solutions de haute qualité pour répondre
+                                    aux besoins les plus exigeants, qu'il
+                                    s'agisse d'applications résidentielles,
+                                    commerciales ou industrielles.
                                 </p>
                             </div>
                         </div>
