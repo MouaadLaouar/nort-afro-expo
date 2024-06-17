@@ -19,19 +19,6 @@ const Footer = (): JSX.Element => {
                     </p>
                 </div>
 
-                <div className="mt-3 space-x-2">
-                    <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@nort-afroexpo.com&su=Hello&body=I%20would%20like%20to%20contact%20you"
-                        className="text-blue-600 text-sm sm:text-base "
-                    >
-                        contact@nort-afroexpo.com
-                    </a>
-
-                    <p className="text-blue-600 text-sm sm:text-base mt-2 ">
-                        +213770952002
-                    </p>
-                </div>
-
                 <div className="mt-3">
                     <p className="text-gray-500 dark:text-neutral-500">
                         © NORT AFRO EXPO. 2024 . All rights reserved.

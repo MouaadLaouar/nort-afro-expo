@@ -2,7 +2,7 @@ import { StyleKey } from "../../types"
 
 export const Style: StyleKey = {
     NavBar: {
-        py: 4,
+       
         px: '10%',
         display: 'flex',
         alignItems: 'center',
@@ -27,6 +27,6 @@ export const Style: StyleKey = {
         flexDirection: 'column',
     },
     Logo: {
-        height: '60px'
+        height: '120px'
     }
 }

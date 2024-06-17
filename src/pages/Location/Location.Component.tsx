@@ -1,10 +1,10 @@
 const Location = (): JSX.Element => {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen" >
             <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
                 <div className="relative md:p-16">
                     <div className="lg:flex gap-8 block">
-                        <div className="mb-10 lg:mb-0 col-span-12 lg:col-start-8 order-2 w-fit">
+                        <div className="mb-10 lg:mb-0 col-span-12 lg:col-start-8  w-fit">
                             <nav
                                 className="grid gap-4 mt-5 md:mt-10"
                                 aria-label="Tabs"
@@ -70,7 +70,14 @@ const Location = (): JSX.Element => {
                                                 Rue de l'AVANT Port, Annaba -
                                                 Algerie.
                                             </span>
-                                            <span className="block text-xs mt-1 text-gray-800">
+                                            <br />
+                                            <span className="block  mt-1 text-gray-800">
+                                                contact@nort-afroexpo.com
+                                            </span>
+                                            <span className="block mt-1 text-gray-800">
+                                                commercial@nort-afroexpo.com
+                                            </span>{" "}
+                                            <span className="block mt-1 text-gray-800">
                                                 +213770952002
                                             </span>
                                         </span>
@@ -79,7 +86,7 @@ const Location = (): JSX.Element => {
                             </nav>
                         </div>
 
-                        <div className="lg:col-span-7 col-span-12 order-1 mt-6 flex justify-center">
+                        <div className="lg:col-span-7 col-span-12 mt-6 flex justify-center">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3190.4434260205417!2d7.769722!3d36.90366100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDU0JzEzLjIiTiA3wrA0NicxMS4wIkU!5e0!3m2!1sfr!2sdz!4v1716858295882!5m2!1sfr!2sdz"
                                 width="600"

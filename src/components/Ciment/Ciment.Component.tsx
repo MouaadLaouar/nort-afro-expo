@@ -1,10 +1,12 @@
 import cementt1 from "../../assets/cement1.jpg";
-import cementt2 from "../../assets/cement2.png";
-import cementt3 from "../../assets/cement3.jpg";
+import cementt2 from "../../assets/ciment2.jpg";
+import cementt3 from "../../assets/ciment3.jpg";
 
 import cementt4 from "../../assets/cement4.png";
 import cementt5 from "../../assets/cement5.png";
 import cementt6 from "../../assets/cement6.png";
+
+import cementLogo from "../../assets/cimentLogo.jpg";
 
 const Ciment = (): JSX.Element => {
     return (
@@ -42,9 +44,18 @@ const Ciment = (): JSX.Element => {
                     <div className="mt-5 sm:mt-10 lg:mt-0 lg:col-span-5">
                         <div className="space-y-6 sm:space-y-8">
                             <div className="space-y-2 md:space-y-4">
-                                <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
-                                    Ciment
-                                </h2>
+                                {/* <div className="flex gap-2 "> */}
+                                    <img
+                                        src={cementLogo}
+                                        alt="ciment"
+                                        className=" h-[120px]"
+                                    />
+
+                                    <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
+                                        Ciment
+                                    </h2>
+                                {/* </div> */}
+
                                 <p className="text-gray-500 ">
                                     Nous proposons la plus large gamme de
                                     ciments de haute qualité sur le marché pour
@@ -58,7 +69,7 @@ const Ciment = (): JSX.Element => {
             </div>
 
             <h1 className="text-center text-3xl font-bold text-gray-800 mt-10 ">
-                 FICHES TECHNIQUE / FICHES DE QUALITE
+                FICHES TECHNIQUE / FICHES DE QUALITE
             </h1>
 
             <div className=" py-12 px-8 grid grid-cols-12 gap-4 ">

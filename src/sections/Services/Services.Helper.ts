@@ -15,17 +15,17 @@ export const Cards = [
         id: "2",
         title: "Bois",
         description:
-            " Nous offrons la plus large gamme de bois de haute qualité sur le marché. ",
+            "Nous offrons la plus large gamme de bois de haute qualité sur le marché. ",
         picture: boisCard,
         href: "bois",
     },
     {
         id: "3",
-        title: "Electroménagers",
+        title: "Clinker",
         description:
-            "Nous offrons la plus large gamme d'électroménagers de haute qualité sur le marché. ",
+            "Nous offrons la plus large gamme d'Clinker de haute qualité sur le marché. ",
         picture: electronicCard,
-        href: "electroménagers",
+        href: "clinker",
     },
     // {
     //     id: "Card-4",

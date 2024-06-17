@@ -18,7 +18,7 @@ const Services = (): JSX.Element => {
                 <Bois />
             </div>
         );
-    } else if (params.serviceId == "electroménagers") {
+    } else if (params.serviceId == "clinker") {
         return (
             <div>
                 <Elctro />

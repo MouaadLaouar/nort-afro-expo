@@ -28,6 +28,7 @@ export const Style: StyleKey = {
         my: 4,
         color: "#01b5ec",
         textAlign: "center",
+        fontWeight: "bold",
     },
     Desc: {
         color: "white",

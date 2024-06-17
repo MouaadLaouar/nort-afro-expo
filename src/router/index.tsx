@@ -4,34 +4,30 @@ import Home from "../pages/Home";
 import Services from "../pages/Services";
 import GloBag from "../Partners/Bag";
 import GloBuild from "../Partners/Build";
-import Location from "../pages/Location";
+
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: "/",
         element: <Home />,
-        errorElement: <div>404 Not Found</div>
+        errorElement: <div>404 Not Found</div>,
     },
     {
-        path: 'service/:serviceId',
-        element: <Services />
+        path: "service/:serviceId",
+        element: <Services />,
     },
     {
         path: "/globalBuild",
-        element: <GloBuild />
+        element: <GloBuild />,
     },
     {
         path: "/globalBag",
-        element: <GloBag />
+        element: <GloBag />,
     },
-    {
-        path: "/location",
-        element: <Location   />
-    },
-    {
-        path: '*',
-        element: <div>404 Not Found</div>
-    }
 
-])
+    {
+        path: "*",
+        element: <div>404 Not Found</div>,
+    },
+]);
 
 export default router;
