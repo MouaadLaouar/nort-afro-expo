@@ -5,9 +5,9 @@ import bois3 from "../../assets/bois3.png";
 import bois4 from "../../assets/bois4.png";
 import bois5 from "../../assets/bois5.png";
 
-import PdfViewer from './pdfViewer';
-import pdfUrl1 from '../../assets/CATALOGUE chatdécors.pdf';
-import pdfUrl2 from '../../assets/CATALOGUE INTERPRINT.pdf';
+import PdfViewer from "./pdfViewer";
+import pdfUrl1 from "../../assets/CATALOGUE chatdécors.pdf";
+import pdfUrl2 from "../../assets/CATALOGUE INTERPRINT.pdf";
 const Bois = (): JSX.Element => {
     return (
         <>
@@ -48,7 +48,14 @@ const Bois = (): JSX.Element => {
                                     Bois
                                 </h2>
                                 <p className="text-gray-500 ">
-                                Explorez notre collection de bois de qualité supérieure, idéale pour tous vos travaux de construction, rénovation et menuiserie, mariant beauté naturelle et robustesse. Parcourez notre gamme diversifiée d'essences bois haut de gamme, parfaitement adaptées aux besoins variés de vos projets, assurant à la fois esthétique et durabilité.
+                                    Explorez notre collection de bois de qualité
+                                    supérieure, idéale pour tous vos travaux
+                                    rénovation et menuiserie, mariant beauté
+                                    naturelle et robustesse. Parcourez notre
+                                    gamme diversifiée d'essences bois haut de
+                                    gamme, parfaitement adaptées aux besoins
+                                    variés de vos projets, assurant à la fois
+                                    esthétique et durabilité.
                                 </p>
                             </div>
                         </div>
