@@ -1,4 +1,4 @@
-import ciment from "../../assets/ciment.jpg";
+import ciment from "../../assets/cimentCover.png";
 import boisCard from "../../assets/boisCard.jpg";
 import electronicCard from "../../assets/elctro/pic3.jpg";
 

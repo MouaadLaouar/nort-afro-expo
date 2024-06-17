@@ -30,7 +30,7 @@ const NavBar = (): JSX.Element => {
                         sx={Style.Link}
                         key={item.id}
                         href={item.href}
-                        className="hover:text-blue-700"
+                        className="hover:text-blue-700 "
                     >
                         {item.name}
                     </Link>

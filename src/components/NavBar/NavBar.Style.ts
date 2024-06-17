@@ -12,14 +12,16 @@ export const Style: StyleKey = {
         display: {
             md: 'flex',
             base: 'none'
-        }
+        },
+        gap: 4,
     },
     Link: {
         p: 1,
         backgroundColor: 'white',
         '_hover': {
             backgroundColor: 'white'
-        }
+        },
+        fontWeight: "600",
     },
     MenuResponsive: {
         mt: 10,
