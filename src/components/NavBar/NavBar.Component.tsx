@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { Style } from "./NavBar.Style";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 import { MenuItems, SocialMedia } from "./NavBar.Helper";
 import { useState } from "react";
 
@@ -55,9 +55,10 @@ const NavBar = (): JSX.Element => {
                         base: "flex",
                     },
                     backgroundColor: "white",
+                  
                 }}
                 onClick={() => setOpen(true)}
-                icon={<HamburgerIcon />}
+                icon={<HamburgerIcon boxSize="2rem"  />}
             />
             <Drawer
                 isOpen={open}
