@@ -58,7 +58,7 @@ const NavBar = (): JSX.Element => {
                   
                 }}
                 onClick={() => setOpen(true)}
-                icon={<HamburgerIcon />}
+                icon={<HamburgerIcon boxSize="2rem" />}
             />
             <Drawer
                 isOpen={open}
